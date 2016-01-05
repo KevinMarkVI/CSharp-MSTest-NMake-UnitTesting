@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e10f3044-f712-4328-971b-64316421161c" name="Kevin Berg@DESKTOP-N7IQCOC 2016-01-05 08:47:13" runUser="DESKTOP-N7IQCOC\Kevin Berg" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="ParallelSelenium" id="cd30bb8b-92e2-4bf3-9a53-789b8602fa09">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Kevin Berg_DESKTOP-N7IQCOC 2016-01-05 08_47_13" />
+    <Execution parallelTestCount="5">
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-01-05T08:47:13.8846213-08:00" queuing="2016-01-05T08:47:14.2908618-08:00" start="2016-01-05T08:47:14.4471078-08:00" finish="2016-01-05T08:47:31.7904613-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BingSearchBye" storage="parallelselenium.dll" id="04c19b45-5f04-1e78-8897-295c75763c14">
+      <Execution id="30e4c6d2-c11a-4b36-b845-82a7dae36955" />
+      <TestMethod codeBase="C:/Users/Kevin Berg/Desktop/CSharp-Nunit-Selenium-1/ParallelSelenium/bin/Release/ParallelSelenium.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ParallelSelenium.ParallelSearchTests, ParallelSelenium, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BingSearchBye" />
+    </UnitTest>
+    <UnitTest name="BingSearchHello" storage="parallelselenium.dll" id="1617a9c5-8324-cc53-fffc-dbeccfe52d43">
+      <Execution id="30839d9c-f017-4f48-89a6-1ae5a2f15ea2" />
+      <TestMethod codeBase="C:/Users/Kevin Berg/Desktop/CSharp-Nunit-Selenium-1/ParallelSelenium/bin/Release/ParallelSelenium.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ParallelSelenium.ParallelSearchTests, ParallelSelenium, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BingSearchHello" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="04c19b45-5f04-1e78-8897-295c75763c14" executionId="30e4c6d2-c11a-4b36-b845-82a7dae36955" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1617a9c5-8324-cc53-fffc-dbeccfe52d43" executionId="30839d9c-f017-4f48-89a6-1ae5a2f15ea2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="30e4c6d2-c11a-4b36-b845-82a7dae36955" testId="04c19b45-5f04-1e78-8897-295c75763c14" testName="BingSearchBye" computerName="DESKTOP-N7IQCOC" duration="00:00:15.9861039" startTime="2016-01-05T08:47:14.4783579-08:00" endTime="2016-01-05T08:47:30.6811101-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e4c6d2-c11a-4b36-b845-82a7dae36955">
+      <Output>
+        <StdOut>SauceOnDemandSessionID=0ecfbf476faa43d8a8e4df26c3f16f2f job-name=True</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30839d9c-f017-4f48-89a6-1ae5a2f15ea2" testId="1617a9c5-8324-cc53-fffc-dbeccfe52d43" testName="BingSearchHello" computerName="DESKTOP-N7IQCOC" duration="00:00:16.3491502" startTime="2016-01-05T08:47:14.5096066-08:00" endTime="2016-01-05T08:47:31.0404824-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30839d9c-f017-4f48-89a6-1ae5a2f15ea2">
+      <Output>
+        <StdOut>SauceOnDemandSessionID=6d407dd24d954734beea3ab8b9da1a19 job-name=True</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
