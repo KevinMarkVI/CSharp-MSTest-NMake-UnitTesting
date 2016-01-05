@@ -23,7 +23,7 @@ Uses [NuGet](http://docs.nuget.org/) as package manager.
 ```cd Packages```<br>
 ```nuget.exe install ..\ParallelSelenium\packages.config```<br>
 
-* Clean and rebuild project:<br>
+* Clean and rebuild project from a developer command prompt:<br>
 ```nmake clean build```
 
 #Set Credentials:<br>
